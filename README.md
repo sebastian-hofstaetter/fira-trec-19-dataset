@@ -24,7 +24,18 @@ With FiRA annotations we can observe a distribution of relevance inside long doc
 
 The FiRA-TREC'19 dataset can be utilized for every approach concerned with long document ranking and the selection of snippets or answers from these documents.
 
+As an example we used it to better understand and evaluate our [TKL document ranking model](https://github.com/sebastian-hofstaetter/transformer-kernel-ranking).
+
 ## Dataset
 
 The FiRA dataset contains **24,199** query \& document-snippet pairs of all **1,990** relevant documents for the **43** queries of TREC-DL. 
 
+The dataset folder contains:
+ - Our processed document-snippets and annotation task list
+ - Raw (anonymized) annotations
+ - Majority voted judgements for document-snippet and document levels
+
+
+## Acknowledgements
+
+We want to thank our students of the Advanced Information Retrieval course in the summer term of 2020 for annotating the data and being so patient and motivated in the process. 
