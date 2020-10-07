@@ -1,7 +1,11 @@
 # FiRA: Fine-grained Relevance Annotations for TREC-DL'19
 
+*Fine-Grained Relevance Annotations for Multi-Task Document Ranking and Question Answering*
+Sebastian Hofstätter, Markus Zlabinger, Mete Sertkan, Michael Schröder and Allan Hanbury. CIKM 2020 (Resource Track)
 
-We present FiRA: a novel dataset of Fine-Grained Relevance Annotations. We extend the ranked retrieval annotations of the [Deep Learning Document Track of TREC 2019](https://github.com/microsoft/TREC-2019-Deep-Learning) with passage and word level graded relevance annotations for all relevant documents.
+https://arxiv.org/abs/2008.05363
+
+**tl;dr** We present FiRA: a novel dataset of Fine-Grained Relevance Annotations 🔍. We extend the ranked retrieval annotations of the [Deep Learning Document Track of TREC 2019](https://github.com/microsoft/TREC-2019-Deep-Learning) with passage and word level graded relevance annotations for all relevant documents.
  
 We split the documents into snippets and displayed query \& document snippet pairs to annotators. In the following Figure, we show an example of an annotated document-snippet. We ensure a high quality by employing at least 3-way majority voting for every candidate and continuous monitoring of quality parameters during our annotation campaign, such as the time spent per annotation. Furthermore, by requiring annotators to select relevant text spans, we reduce the probability of false-positive retrieval relevance labels.
 
@@ -18,7 +22,15 @@ With FiRA annotations we can observe a distribution of relevance inside long doc
 ![](figures/in-document-pos-bias.png)
 
 
-**Paper with more analysis coming soon**
+**Please cite us as:**
+````
+@inproceedings{Hofstaetter2020_fira,
+ author = {Hofst{\"a}tter, Sebastian and Zlabinger, Markus and Sertkan, Mete and Schr{\"o}der, Michael and Hanbury, Allan},
+ title = {Fine-Grained Relevance Annotations for Multi-Task Document Ranking and Question Answering},
+ booktitle = {Proc. of CIKM},
+ year = {2020},
+}
+````
 
 ## Usage Scenarios
 
